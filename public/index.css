@@ -361,12 +361,11 @@ position: relative;
     text-align: center;
 }
 
-<<<<<<< HEAD
+
 .layer a i{
     margin-top: 10px;
 }
-=======
->>>>>>> 8b8069304c4a36ab6f5c908896102481c3462622
+
 .work:hover img{
     transform: scale(1.1);
 }
@@ -572,7 +571,7 @@ nav .fas{
     margin-top: -40px;
     display: block;
 }
-<<<<<<< HEAD
+
 
 .links-container {
     display: flex;
@@ -600,5 +599,4 @@ nav .fas{
 .links-container a:hover {
     background: lightblue;
 }
-=======
->>>>>>> 8b8069304c4a36ab6f5c908896102481c3462622
+
