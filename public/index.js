@@ -118,4 +118,3 @@ const proficiencyValue = document.createElement('span');
 
 
 
-
