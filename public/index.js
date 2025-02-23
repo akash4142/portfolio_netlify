@@ -73,7 +73,7 @@ const proficiencyValue = document.createElement('span');
 
 
     const scriptURL =
-  "https://script.google.com/macros/s/AKfycbwJtPcVp0nN9xerDGI763q-pnPQHzngCbyy8zQArQgqEJC2CYwFINyez9-BNU4r63byRQ/exec";
+  "https://script.google.com/macros/s/AKfycbyrSDAF5ZZu6ew-MYT9tCahoOxpvMT86lNJ35DxhRDB33d755Akydc4ltxFg1VQx96tEQ/exec";
 const form = document.forms["submit-to-google-sheet"];
 const msg = document.getElementById("msg");
 
