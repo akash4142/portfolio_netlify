@@ -72,11 +72,12 @@ const proficiencyValue = document.createElement('span');
 
 
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbwJkqV6y5wkvWlVwKiS2h7R-4kIdMijr_9xRqCwnRMJX8XJhTlnSb7DthinfxUDg-HTgw/exec"
-    const form = document.forms['submit-to-google-sheet']
-  const msg= document.getElementById("msg");
+    const scriptURL =
+  "https://script.google.com/macros/s/AKfycbwJkqV6y5wkvWlVwKiS2h7R-4kIdMijr_9xRqCwnRMJX8XJhTlnSb7DthinfxUDg-HTgw/exec";
+const form = document.forms["submit-to-google-sheet"];
+const msg = document.getElementById("msg");
 
-    form.addEventListener("submit", (e) => {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const formData = new FormData(form);
