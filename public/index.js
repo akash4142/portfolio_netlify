@@ -72,22 +72,27 @@ const proficiencyValue = document.createElement('span');
 
 
 
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzwCFAtAV8nKgF3L_CBwk1OtmWJUUFsKK7kFGbUCgkTKfWfkDWs5qgoSBAzpcKTMxMjhA/exec'
+    const scriptURL = "https://script.google.com/macros/s/AKfycbwJkqV6y5wkvWlVwKiS2h7R-4kIdMijr_9xRqCwnRMJX8XJhTlnSb7DthinfxUDg-HTgw/exec"
     const form = document.forms['submit-to-google-sheet']
   const msg= document.getElementById("msg");
 
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response =>{
-            msg.innerHTML="Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML=""
-            },5000)
-            form.reset();
-        })
-        .catch(error => console.error('Error!', error.message))
+    form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+
+  fetch(scriptURL, {
+    method: "POST",
+    body: formData,
+  })
+    .then((response) => response.text())
+    .then((data) => {
+      msg.innerHTML = "Message sent successfully!";
+      setTimeout(() => (msg.innerHTML = ""), 5000);
+      form.reset();
     })
+    .catch((error) => console.error("Error!", error.message));
+});
   
     const seeMoreButton = document.getElementById("see-more-button");
     const projects = document.querySelectorAll(".work");
