@@ -1,0 +1,453 @@
+<html>
+    <head>
+        <title>Akash Yadav</title>
+        <link rel="stylesheet" type="text/css" href="public/index.css">
+        
+        <script src="https://kit.fontawesome.com/3b74f2023b.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <a href="/" id="navbar__logo"><i class="fas fa-gem"></i> AKASH YADAV</a>
+                    <ul id="sidemenu">
+                      <li><a href="#header" class="nav-link active">Home</a></li>
+                      <li><a href="#about" class="nav-link">About</a></li>
+                      <li><a href="#services" class="nav-link">Services</a></li>
+                      <li><a href="#projects" class="nav-link">Projects</a></li>
+                      <li><a href="#contact" class="nav-link">Contact</a></li>
+                      <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                  </nav>
+                  
+                  <div class="header-text">
+                    <p class="role">
+                        <span id="typed-role"></span>
+                      </p>
+                      
+                    <h1>
+                      Hi, I'm <span class="highlighted-name">Akash Yadav</span>
+                    </h1>
+                    <p class="quote">"Turning lines of code into innovation and imagination."</p>
+                    <div class="cta-buttons">
+                      <a href="#projects" class="btn hero-btn">View Projects</a>
+                      <a href="#footer" class="btn hero-btn outlined">Hire Me</a>
+                      <a href="public/images/Akash%20Yadav%20resume.pdf" download class="btn hero-btn outlined">📄 Resume</a>
+                    </div>
+                  </div>
+                  
+        </div>
+
+
+        <div id="about">
+            <div class="container">
+              <div class="row about-section">
+                <div class="about-col-1" data-aos="fade-right">
+                  <img src="public/images/newimage.jpg" alt="Akash Yadav">
+                </div>
+                <div class="about-col-2" data-aos="fade-left">
+                  <h1 class="sub-title">About Me</h1>
+                  <p>
+                    Hello, I'm Akash Yadav, an enthusiastic and creative aspiring Full Stack Developer with a passion for crafting dynamic and user-centric web applications. My journey in the world of development has been marked by a relentless curiosity and a love for problem-solving. I thrive on the challenge of learning new technologies and techniques, ensuring that I stay at the forefront of the ever-evolving landscape of web development. With a strong foundation in both front-end and back-end technologies, I am dedicated to delivering seamless user experiences and robust functionalities. My ability to swiftly adapt to emerging technologies and my unwavering commitment to continuous learning empower me to create innovative and efficient solutions. I'm excited to contribute my skills and dedication to projects that push boundaries and make a meaningful impact.
+                  </p>
+          
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+          
+                  <!-- SKILLS TAB -->
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                      <li><span>Frontend</span><br>
+                        HTML5, CSS, JavaScript, React.js, TypeScript, React Native, Redux, jQuery, Bootstrap, WebSocket, Web Development, Testing Frameworks (unit, integration, e2e, automated), Cross-Browser Compatibility, Debugging, Code Review
+                      </li><br>
+                      <li><span>Backend</span><br>
+                        Node.js, Express.js, REST APIs, Authentication/Authorization, Python, Ruby on Rails, Django, Elasticsearch, ColdFusion, Data-Driven Backend Development, Redshift, RDS, Docker
+                      </li><br>
+                      <li><span>Databases</span><br>
+                        SQL, MongoDB, Postgrad, Redis
+                      </li><br>
+                      <li><span>DevOps & Operations</span><br>
+                        GIT, GitHub, Jira, CI/CD, Version Control, DevOps, Continuous Integration and Deployment, Google Cloud, SaaS Product Architecture
+                      </li><br>
+                      <li><span>Tools & Technologies</span><br>
+                        Microsoft Excel, Agile Scrum, Automated Tests, Machine Learning, AI Concepts, Content Management, Photoshop
+                      </li><br>
+                      <li><span>Soft Skills</span><br>
+                        Written & Verbal Communication, Collaboration, Leadership, Teamwork, Adaptability, Attention to Detail, Problem-Solving, Continuous Learning
+                      </li><br>
+                      <li><span>Programming Languages</span><br>
+                        C++, Python, C
+                      </li>
+                    </ul>
+                  </div>
+          
+                  <!-- EXPERIENCE TAB -->
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>Freelance Developer<br>Upwork<br>Ongoing</span><br>
+                            Delivered custom web solutions for clients using JavaScript, React, Node.js, and MongoDB.<br>
+                            Developed full-stack, responsive applications tailored to client needs.<br>
+                            Maintained consistent communication with clients to ensure timely and high-quality deliverables.<br>
+                            Collaborated with international clients, managing timelines, revisions, and expectations effectively.
+                          </li><br>
+                      <li>
+                        <span>Full-Stack Developer Intern<br>GAO Tek Inc., Toronto<br>Jan 2023 – May 2023</span><br>
+                        Promoted to Sub Team Leader, responsible for managing tasks in an Agile Scrum team environment.<br>
+                        Developed user interfaces (UI) using HTML, CSS, ReactJS, and TypeScript, ensuring high-quality, responsive design for cross-browser compatibility.<br>
+                        Worked on automated tests to ensure quality code in different stages of development.<br>
+                        Involved in Webpack optimization for efficient JavaScript (JS) bundling.<br>
+                        Implemented Redshift for data analysis and RDS for cloud-based database management.<br>
+                        Utilized Redis to improve back-end performance and scalability, focusing on technical solutions for performance bottlenecks.<br>
+                        Declared "Intern of the Month" twice for outstanding contributions.
+                      </li>
+                    </ul>
+                  </div>
+                  
+          
+                  <!-- EDUCATION TAB -->
+                  <div class="tab-contents" id="education">
+                    <ul>
+                      <li>
+                        <span>Seneca College<br>2022 – Current</span><br>
+                        <strong>Program:</strong> Associates Degree in Computer Programming<br>
+                        <strong>GPA:</strong> 3.7/4.0<br>
+                        <strong>Skills Gained:</strong><br>
+                        Programming Languages: C++, Python, Java, JavaScript, TypeScript, C#<br>
+                        Web Development: HTML5, CSS, React.js, Node.js, Flask, Django, AngularJS<br>
+                        Database Management: PostgreSQL, MongoDB, RDS, Redshift<br>
+                        Software Development: Agile Scrum, Microservices, Git, Webpack<br>
+                        Cloud Technologies: AWS (RDS, S3), Heroku, Redis<br>
+                        UI/UX Design: Responsive Design, Cross-Browser Compatibility<br>
+                        Testing & Debugging: Automated Testing, Debugging Tools, Performance Optimization<br>
+                        Data Structures & Algorithms
+                      </li>
+                      <li>
+                        <span>High School – DPS Meerut<br>2020 – 2022</span><br>
+                        <strong>Stream:</strong> Physics, Chemistry, Mathematics<br>
+                        <strong>GPA:</strong> 4.0/4.0<br>
+                        <strong>Skills Gained:</strong><br>
+                        Mathematics: Calculus, Linear Algebra, Differential Equations<br>
+                        Physics: Mechanics, Thermodynamics, Electricity & Magnetism<br>
+                        Computer Science: Basics of Programming, Data Structures, Algorithms<br>
+                        Analytical and Problem-Solving Skills<br>
+                        Collaboration and Teamwork<br>
+                        Effective Communication and Presentation Skills
+                      </li>
+                    </ul>
+                  </div>
+                  
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+    <!----- services------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Build interactive and responsive websites using HTML, CSS, and JavaScript</p>
+                <a href="https://www.codecademy.com/resources/blog/what-is-web-development/">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Back-End Development</h2>
+                <p>Create server-side logic and APIs using Node.js and Express.Design and optimize databases using MongoDB, PostgreSQL, and SQL.</p>
+                <a href="https://www.codecademy.com/resources/blog/what-is-back-end/">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code-merge"></i>
+                <h2>Full-Stack Development</h2>
+                <p>Offer end-to-end development services, from front-end interfaces to back-end functionality.</p>
+                <a href="https://www.w3schools.com/whatis/whatis_fullstack.asp">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Management</h2>
+                <p>Provide database design, optimization, and maintenance services.Offer data migration and data transformation services.</p>
+                <a href="https://www.dataversity.net/what-is-database-management/">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="featured-project" class="featured" data-aos="fade-up">
+    <h2 class="sub-title">🚀 Featured Project</h2>
+    <div class="featured-content">
+      <div class="featured-text">
+        <h3>Warehouse Production Management System</h3>
+        <p class="intro">
+          A secure full-stack desktop solution crafted for real-world inventory and packaging automation. Designed to track production, manage stock, and streamline Amazon shipments — all in one responsive Electron-based app.
+        </p>
+  
+        <ul class="feature-list">
+          <li>🛠️ <strong>Tech Stack:</strong> Electron.js, React, Node.js, MongoDB Atlas, Material UI</li>
+          <li>📦 Real-time inventory + accessory tracking with logs</li>
+          <li>📊 Visual dashboards with filters, tooltips, packaging bars</li>
+          <li>🔒 Fully installable, offline-ready, client-deployed system</li>
+        </ul>
+  
+        <!-- CTA Buttons -->
+        <div class="featured-buttons">
+          <a href="case-study" class="btn hero-btn">📄 View Case Study</a>
+          <a href="https://youtu.be/oO67IW5ANSs?si=8enUhiZK0WWjtTWG" class="btn hero-btn outlined" target="_blank">🎬 Watch Demo</a>
+        </div>
+  
+        <!-- Optional Testimonial -->
+        <blockquote class="testimonial">
+            “Akash’s Warehouse Management System completely transformed our day-to-day operations. We used to spend hours on manual tracking, but now everything is automated and efficient. The UI is clean, the features are smart, and support was always top-notch.”  
+            <span>– Marcom Inc., Warehouse Operations Team</span>
+          </blockquote>
+          
+          <blockquote class="testimonial">
+            “We were amazed by how quickly Akash delivered a fully functional, secure system tailored to our needs. It streamlined our packaging flow and gave us real-time control over stock and shipments. Highly recommend for any production-driven business.”  
+            <span>– ProClean India, Supply Chain Manager</span>
+          </blockquote>
+          
+      </div>
+    </div>
+  </div>
+  
+
+  <div id="projects">
+    <div class="container">
+      <h1 class="sub-title">Other Projects</h1>
+  
+      <!-- Filter Buttons -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="mern">MERN</button>
+        <button class="filter-btn" data-filter="cpp">C++</button>
+        <button class="filter-btn" data-filter="js">JavaScript</button>
+        <button class="filter-btn" data-filter="c">C</button>
+      </div>
+  
+      <div class="work-list">
+        <!-- Project Card 1 -->
+         <!-- E-Commerce -->
+
+<!-- Shield Security (Ongoing) -->
+<div class="work" data-category="mern" data-aos="fade-up">
+  <img src="public/images/security.jpg" alt="Security Website">
+  <div class="layer">
+    <h3>Shield Security <span class="status-badge">Ongoing</span></h3>
+    <p>Full-stack security agency website built using React, Node.js, Stripe integration, and admin dashboard.</p>
+    <div class="links-container">
+      <a href="https://github.com/akash4142/Shied-security-frontend"><i class="fa-brands fa-github"></i></a>
+      <a href="https://shield-security.netlify.app/" target="_blank">Demo</a>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="work" data-category="js" data-aos="fade-up">
+  <img src="public/images/E-commerce.jpg" alt="E-Commerce Web App">
+  <div class="layer">
+    <h3>E-Commerce</h3>
+    <p>Full-stack project using HTML, HBS, CSS, JavaScript, Node.js, Express.js, and PostgreSQL.</p>
+    <div class="links-container">
+      <a href="https://github.com/akash4142/EcommerceSite"><i class="fa-brands fa-github"></i></a>
+      <a href="https://endearing-maamoul-18320a.netlify.app">Demo</a>
+    </div>
+  </div>
+</div>
+
+<!-- We-Social -->
+<div class="work" data-category="mern" data-aos="fade-up">
+  <img src="public/images/WeSocial.jpg" alt="We-Social App">
+  <div class="layer">
+    <h3>We-Social</h3>
+    <p>MERN stack social platform with messaging, posts & authentication. Server-side in progress.</p>
+    <div class="links-container">
+      <a href="https://github.com/akash4142/WeSocial"><i class="fa-brands fa-github"></i></a>
+      <a href="https://we-social-brown.vercel.app/">Demo</a>
+    </div>
+  </div>
+</div>
+
+<!-- Tim Bank -->
+<div class="work" data-category="js" data-aos="fade-up">
+  <img src="public/images/bank.jpeg" alt="Banking Dashboard">
+  <div class="layer">
+    <h3>Tim Bank</h3>
+    <p>Banking app using HBS, CSS, JS, Node.js, Express, Auth, and PostgreSQL. Secure flows included.</p>
+    <div class="links-container">
+      <a href="https://github.com/akash4142/Timbank"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Sene-Store (C++) -->
+<div class="work" data-category="cpp" data-aos="fade-up">
+  <img src="public/images/sene.jpeg" alt="C++ Console App">
+  <div class="layer">
+    <h3>The Sene-Store</h3>
+    <p>C++ project showcasing inheritance, encapsulation, abstraction, and polymorphism.</p>
+    <div class="links-container">
+      <a href="https://github.com/akash4142/SenecaOOP244-Project"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Real-Time Chat -->
+<div class="work" data-category="js" data-aos="fade-up">
+  <img src="public/images/realtime.jpeg" alt="Chat Interface">
+  <div class="layer">
+    <h3>Real Time Chat</h3>
+    <p>Built with Express.js and Socket.IO for real-time messaging functionality. Full JS stack.</p>
+    <div class="links-container">
+      <a href="https://github.com/akash4142/realtimechat"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Vet Clinic (C) -->
+<div class="work" data-category="c" data-aos="fade-up">
+  <img src="public/images/clinic.jpeg" alt="Vet Appointment System">
+  <div class="layer">
+    <h3>Veterinarian Clinic System</h3>
+    <p>Pure C project managing appointments and schedule logic for veterinary health clinics.</p>
+    <div class="links-container">
+      <a href="https://github.com/akash4142/SenecaIPC144-Project"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Assembly Line Simulation -->
+<div class="work" data-category="cpp" data-aos="fade-up">
+  <img src="public/images/simulation.jpeg" alt="Factory Simulation">
+  <div class="layer">
+    <h3>Simulation of Assembly Line</h3>
+    <p>Advanced C++ project using STL, lambda expressions, and function objects for factory simulation.</p>
+    <div class="links-container">
+      <a href="https://github.com/akash4142/SenecaOOP345-project"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Library Management System -->
+<div class="work" data-category="mern" data-aos="fade-up">
+  <img src="public/images/library.avif" alt="Library Book Manager">
+  <div class="layer">
+    <h3>Library Management</h3>
+    <p>Full-stack Library Management System with dynamic user/staff roles, MongoDB, Express, and Node.js.</p>
+    <div class="links-container">
+      <a href="https://github.com/akash4142/SenecaIPC144-Project"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </div>
+</div>
+
+      <!-- See More (optional for pagination later) -->
+      <a href="javascript:void(0);" class="btn" id="see-more-button">See More</a>
+    </div>
+  </div>
+  
+  <div id="testimonials" class="testimonial-section">
+    <h1 class="sub-title">💬 Testimonials</h1>
+    <div class="testimonial-slider">
+      <div class="testimonial-track">
+  
+        <div class="testimonial-card">
+          <p>“Akash's Warehouse Management System changed the way we run operations. Efficient, fast, and fully customized to our needs.”</p>
+          <h4>Marcom Inc.</h4>
+        </div>
+
+        <div class="testimonial-card">
+            <p>"Akash is a subject matter expert in the realm of C++! He was quick to communicate and professional throughout the entire work contract. Thank you!"</p>
+            <h4>Jonathan From GameDevHQ</h4>
+          </div>
+
+
+          <div class="testimonial-card">
+            <p>"Akash did an amazing job for us. This was a VERY complicated product where we had to take hundreds of pages of data from a video, then screenshot it, OCR it, add relevant descriptions where missing and finally put it into 3 relational tables. Akash did a perfect job! He needed very few instructions to understand the task and completed the work flawlessly! We will definately hire him again for when we have complex data tasks"</p>
+            <h4>Torben From FlipInvest</h4>
+          </div>
+  
+  
+  
+          <div class="testimonial-card active">
+          <p>“One of the best developers we’ve worked with. On-time delivery, incredible support, and pixel-perfect execution. Highly recommend!”</p>
+          <h4>ProClean India</h4>
+        </div>
+  
+        <div class="testimonial-card">
+          <p>“We’ve collaborated on multiple full-stack projects — from idea to deployment. Akash always brings high-quality, scalable code.”</p>
+          <h4>Freelance Client</h4>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+ 
+<footer id="footer" class="footer">
+    <div class="container footer-container">
+      
+      <!-- Left: Quick Links & About -->
+      <div class="footer-section">
+        <h2>Akash Yadav</h2>
+        <p>Turning lines of code into real-world innovation.<br> Let’s build something awesome together.</p>
+  
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+  
+        <div class="footer-socials">
+          <a href="https://github.com/akash4142" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/akash-yadav-922b06236" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:yadavakki440@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="public/images/Akash%20Yadav%20resume.pdf" download class="btn footer-resume-btn">📄 Download My Resume</a>
+        </div>
+      </div>
+  
+      <!-- Right: Messaging Form -->
+      <div class="footer-section">
+        <h3>Send Me a Message</h3>
+        <form id="contact-form">
+          <input type="text" name="from_name" placeholder="Your Name" required>
+          <input type="email" name="email_id" placeholder="Your Email" required>
+          <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+          <p id="form-status"></p>
+        </form>
+      </div>
+  
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 Akash Yadav. All rights reserved.</p>
+    </div>
+  </footer>
+  
+
+
+
+
+
+        <script src="public/index.js"></script>
+
+    </body>
+</html>
+
+
+
